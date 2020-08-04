@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Profile Page</title>
+</head>
+<body>
+    <main>
+        <header id="desktop-header">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+        </header>
+        <header>
+            <nav id="mobile-nav">
+                <h2 id="close">X</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>  
+            </nav>
+            <img src="images/icon-hamburger.svg" alt="ham" id="hamburger">
+        </header>
+        <h1 id="sendMsg">Send Me A Message And I'll Reply You...Eventually :)</h1>
+        <form>
+            <div class="form-style">
+                <label for="firstname">First Name: </label>
+                <input type="text" id="firstname" name="firstname" placeholder="Firstname Here...">
+            </div>
+            <div class="form-style">
+                <label for="lastname">Last Name: </label>
+                <input type="text" id="lastname" name="lastname" placeholder="Lastname Here...">
+            </div>
+            <div class="form-style">
+                <label for="email">Email Address: </label>
+                <input type="email" id="email" name="email" placeholder="Email Here...">
+            </div>
+            <div class="form-style" id="msgarea">
+                <textarea name="message" id="msg" cols="300" rows="10"></textarea>
+                <button type="submit">Send Message</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p id="social-text">Check Me Out on The Following Social Media Platforms</p>
+        <div id="social">
+            <a href="https://www.twitter.com/OluwaPm">
+                <img src="images/icon-twitter.svg" alt="icon-twitter">
+            </a>
+            <a href="#">
+                <img src="images/icon-facebook.svg" alt="fb">
+            </a>
+            <a href="https://www.instagram.com/oluwa_pm">
+                <img src="images/icon-instagram.svg" alt="insta">
+            </a>
+        </div>
+        <p>All Rights Reserved &copy; 2020</p>
+        <span>Coded by <a href="https://www.github.com/SirPm">SirPm a.k.a. Lupeim</a></span>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

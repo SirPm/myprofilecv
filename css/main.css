@@ -1,0 +1,537 @@
+/******************************************
+    General 
+******************************************/
+
+:root {
+    background-color: #ecf5ff;
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+    color: #333;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
+main {
+    padding-bottom: 29rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.7rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0px auto;
+}
+
+label {
+    font-size: 1.5rem;
+}
+
+
+
+/******************************************
+    Nav Section
+******************************************/
+
+#mobile-nav {
+    display: none;
+}
+
+nav {
+    background-color: rgba(5, 5, 5, 0.829);
+    padding: 2rem;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+li {
+    list-style: none;
+    margin-right: 10rem;
+}
+
+nav ul li a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav ul li a:hover {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 1rem 2.5rem;
+    border-radius: 1rem;
+}
+
+
+
+/******************************************
+    Header
+******************************************/
+
+#header {
+    display: flex;
+    justify-content: space-around;
+    margin: 1.9rem 0rem;
+}
+
+#header img {
+    width: 20%;
+    border-radius: 50%;
+}
+
+#header div {
+    align-self: center;
+}
+
+#hamburger {
+    display: none;
+}
+
+
+
+/******************************************
+    Education
+******************************************/
+
+#education {
+    margin-top: 2.5rem;
+}
+
+#education h2 {
+    border-bottom: 0.2rem dashed black;
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+#education h4 {
+    margin-top: 1rem;
+    margin-left: 5rem;
+}
+
+
+
+/******************************************
+    Work Experience
+******************************************/
+/* 
+#work-experience {
+    margin-top: 1rem;
+} */
+
+#work-experience section {
+    margin-top: 1rem;
+}
+
+#work-experience h2 {
+    border-bottom: 0.2rem dashed black;
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+
+
+/******************************************
+    Skills
+******************************************/
+/* 
+#skills {
+    margin-top: 1rem;
+} */
+
+#skills section {
+    margin-top: 1rem;
+}
+
+#skills h2 {
+    border-bottom: 0.2rem dashed black;
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+.progress-bar-html {
+    border: 0.2rem solid #f53506;
+    width: 10%;
+    height: 2.4rem;
+}
+
+.progress-bar-css {
+    border: 0.2rem solid #1178da;
+    width: 10%;
+    height: 2.4rem;
+}
+
+.progress-bar-js {
+    border: 0.2rem solid #ffc916;
+    width: 10%;
+    height: 2.4rem;
+}
+
+#progress-bar-html {
+    background-color: #f53506;
+    height: 2rem;
+    width: 90%;
+}
+
+#progress-bar-css {
+    background-color: #1178da;
+    height: 2rem;
+    width: 50%;
+}
+
+#progress-bar-js {
+    background-color: #ffc916;
+    height: 2rem;
+    width: 30%;
+}
+
+
+
+/******************************************
+    Footer
+******************************************/
+
+footer {
+    background-color: rgba(5, 5, 5, 0.829);
+    /* margin-top: 4rem;*/
+    padding-top: 2rem; 
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 16.5rem;
+}
+
+#social-text {
+    margin-bottom: 1.5rem;
+}
+
+#social {
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+
+footer p {
+    color: #ffffff;
+    text-align: center;
+}
+
+footer span, a {
+    color: rgba(224, 223, 226, 0.822);
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+footer span a:hover {
+    color: #ffffff;
+}
+
+
+
+/******************************************
+    Profile Page Styles
+******************************************/
+
+#bio {
+    text-align: center;
+    margin: 3rem 0;
+    border-bottom: 0.5px solid #000000;
+    padding-bottom: 2rem;
+    clear: right;
+}
+
+.bio-data {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+p span {
+    font-weight: bold;
+    display: block;
+    font-size: 2rem;
+}
+
+#watch-word {
+    text-align: right;
+}
+
+
+
+/******************************************
+    Contact Page Styles
+******************************************/
+
+#sendMsg {
+    text-align: center;
+    margin-top: 3rem;
+    clear: right;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 6rem auto;
+}
+
+.form-style {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+input {
+    /* height: 3.8rem;
+    width: 30%; */
+    padding: 1rem 4rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid grey;
+}
+
+textarea {
+    margin: 0 auto;
+}
+
+button {
+    padding: 0.2rem 4rem;
+    height: 5rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid grey;
+    margin-left: 7rem;
+    align-self: center;
+    background-color: transparent;
+    color: black;
+}
+
+button:hover {
+    background-color: rgb(177, 218, 231);
+    color: rgb(7, 124, 105);
+    cursor: pointer;
+}
+
+
+
+/******************************************
+    Gallery Page Styles
+******************************************/
+
+#mini-gallery {
+    text-align: center;
+    clear: right;
+    margin-bottom: 1rem;
+}
+
+#images {
+    display: flex;
+    flex-direction: column;
+}
+
+#images img {
+    width: 20%;
+    /* border-radius: 50%; */
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 2rem auto;
+}
+
+.images p {
+    align-self: center;
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+
+/******************************************
+    Media Query For Small Screens
+******************************************/
+
+@media screen and (max-width: 650px) {
+
+    header {
+        position: relative;
+    }
+
+    #desktop-header {
+        display: none;
+    }
+
+    #mobile-nav {
+        display: none;
+        animation: fadeInDown 1.5s;
+    }
+
+    @keyframes fadeInDown {
+        from {
+            transform: translateY(-10%);
+        } to {
+            transform: translateY(0%);
+        }
+    }
+
+    ul {
+        flex-direction: column;
+        align-content: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li a {
+        text-align: center;
+    }
+
+    nav ul li {
+        line-height: 5rem;
+        margin: 0 auto;
+    }
+
+    nav ul li a:hover {
+        padding: 0rem 5rem;
+        border-radius: 1rem;
+    }
+
+    #hamburger {
+        float: right;
+        display: block;
+        cursor: pointer;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+
+    #close {
+        color: #ec0909;
+        text-align: right;
+        cursor: pointer;
+    }
+
+    #header {
+        flex-direction: column;
+        clear: right;
+    }
+
+    #header img {
+        align-self: center;
+        width: 60%;
+    }
+
+    #header div {
+        text-align: center;
+    }
+
+
+
+    /********************************
+        Contact Page Media Query
+    ********************************/
+
+    .form-style {
+        margin-left: -8.7rem;
+    }
+
+    #firstname {
+        margin-left: 1.9rem;
+    }
+
+    #lastname {
+        margin-left: 1.9rem;
+    }
+
+    #email {
+        margin-left: 0.7rem;
+    }
+
+    #msgarea {
+        flex-direction: column;
+    }
+
+    #msg {
+        width: 100%;
+        margin-left: 6rem;
+        margin-bottom: 3rem;
+    }
+
+    button {
+        width: 100%;
+        margin-left: 12rem;
+    }
+
+    /********************************
+        Gallery Media Query
+    ********************************/
+
+    .images {
+        flex-direction: column;
+    }
+
+    .images img {
+        align-self: center;
+        width: 50% !important;
+        margin-bottom: 4rem;
+    }
+
+
+    /********************************
+        Footer Media Query
+    ********************************/
+
+    main {
+        padding-bottom: 39rem;
+    }
+
+    footer {
+        height: 27.5rem;
+    }
+
+    #social {
+        flex-direction: column;
+    }
+    
+    #social a {
+        margin-bottom: 2rem;
+    }
+}
